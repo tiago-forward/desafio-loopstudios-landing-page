@@ -1,7 +1,7 @@
 /*GLOBAL*/
 
 body{
-    width: 1440px;
+    max-width: 1440px;
     margin: 0 auto;
     font-family: "Alata", sans-serif;
     font-size: 15px;
@@ -75,8 +75,8 @@ body{
 
 .main-title-container{
     margin-top: 60px;
-    margin-left: 165px;
-    width: 653px;
+    margin-left: 11%;
+    width: 47%;
     border: 3px solid var(--white);
 }
 
@@ -93,7 +93,7 @@ body{
 /*SECTION INTERACTIVE VR*/
 
 .interactive-vr{
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
     display: flex;
     position: relative;
@@ -105,14 +105,25 @@ body{
     display: flex;
     justify-content: center;
     position: relative;
+    min-width: 70%;
+}
+
+.interactive-vr .image-vr-container img{
+    min-width: 70%;
 }
 
 .interactive-vr .content-container{
-    position: absolute;
     margin-top: 160px;
-    padding: 80px 0px 0 90px;
+    padding: 70px 0px 0 70px;
     background-color: var(--white);
-    left: 585px;
+    width: 48%;
+    left: 600px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    position: absolute;
 }
 
 .interactive-vr .content-container .content-text{
@@ -125,7 +136,7 @@ body{
 /*SECTION OUR CREATIONS*/
 
 .creations-container{
-    width: 1140px;
+    width: 80%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -167,14 +178,21 @@ body{
 
 .creations-container .our-creations-options a{
     position: relative;
+    display: block;
+}
+
+.creations-container .our-creations-options picture{
+    width: 100%;
+    height: auto;
 }
 
 .creations-container .our-creations-options img{
     position: relative;
-    height: 100%;
+    height: auto;
     filter: brightness(90%);
     -webkit-filter: brightness(90%);
     -moz-filter: brightness(90%);
+    max-width: 100%;
 }
 
 .creations-container .our-creations-options a:hover img{
