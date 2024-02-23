@@ -21,11 +21,18 @@ Este é um projeto do site [Frontend Mentor](https://www.frontendmentor.io/chall
 <li>Desafio 1 - Criando todo o código HTML.
 
     Criar o código HTML de forma semântica;✅
+    Tornar o código semântico;
 
+<li>Desafio 2 - Estilizando com o CSS.
 
-<li>Desafio 2 - .
+    Adicionando estilizações do CSS;✅
+    Manter o mais próximo possível do designer real;✅
+    Responsivo para todos os dispositivos;
 
-    ;✅
+<li>Desafio 3 - Adicionando interatividade com JavaScript.
+
+    Atribuindo funcionalidades aos elementos clicáveis;
+
 
 
 ### Layout do solução
@@ -49,7 +56,7 @@ Neste projeto, aprendi que podemos utilizar e manipular da melhor forma o displa
 <ul>
 <li>HTML</li>
 <li>CSS</li>
-<li>JavaScript</li>
+<!-- <li>JavaScript</li> -->
 <li>GIT</li>
 </ul>
 
