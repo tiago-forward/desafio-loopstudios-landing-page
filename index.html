@@ -19,16 +19,28 @@
 
 </head>
 <body>
-  <header class="header ">
+  <header class="header">
     <nav class="menu-header">
       <img class="logo-image" src="src/assets/images/logo.svg" alt="Logo loopstudios">
-      <ul class="nav-list-items">
+      <ul id="nav-list-items-header" class="nav-list-items">
         <li class="nav-list-item"><a href="#">About</a></li>
         <li class="nav-list-item"><a href="#">Careers</a></li>
         <li class="nav-list-item"><a href="#">Events</a></li>
         <li class="nav-list-item"><a href="#">Products</a></li>
         <li class="nav-list-item"><a href="#">Support</a></li>
       </ul>
+      <button class="button-hamburger" onclick="menuOpen()">
+        <img src="/src/assets/images/icon-hamburger.svg" alt="button hamburger">
+      </button>
+      <div id="mobile-menu" class="mobile-menu closed">
+        <ul class="nav-list-items">
+          <li class="nav-list-item"><a href="#">About</a></li>
+          <li class="nav-list-item"><a href="#">Careers</a></li>
+          <li class="nav-list-item"><a href="#">Events</a></li>
+          <li class="nav-list-item"><a href="#">Products</a></li>
+          <li class="nav-list-item"><a href="#">Support</a></li>
+        </ul>
+      </div>
     </nav>
     <div class="main-title-container">
       <h1 class="main-title">Immersive experiences that deliver</h1>
@@ -50,65 +62,70 @@
     <section class="creations-container">
       <div class="our-creations">
         <h2 class="section-title">Our creations</h2>
-        <a class="button-see-all" href="#">See all</a>
+        <div id="btn-see-all-container" class="btn-see-all-container">
+          <a id="button-see-all" class="button-see-all" href="#">See all</a>
+        </div>
       </div>
       <div class="our-creations-options">
         <a href="#">
           <picture>
-            <source media="(min-width: 640px)" srcset="src/assets/images/desktop/image-deep-earth.jpg" />
+            <source media="(min-width: 900px)" srcset="src/assets/images/desktop/image-deep-earth.jpg" />
             <img src="src/assets/images/mobile/image-deep-earth.jpg" alt="deep earth"/>
             <h2 class="section-title-creations">Deep earth</h2>
           </picture>
         </a>
         <a href="#">
           <picture>
-            <source media="(min-width: 640px)" srcset="src/assets/images/desktop/image-night-arcade.jpg" />
+            <source media="(min-width: 900px)" srcset="src/assets/images/desktop/image-night-arcade.jpg" />
             <img src="src/assets/images/mobile/image-night-arcade.jpg" alt="Image night arcade">
             <h2 class="section-title-creations">Night arcade</h2>
           </picture>
         </a>
         <a href="#">
           <picture>
-            <source media="(min-width: 640px)" srcset="src/assets/images/desktop/image-soccer-team.jpg" />
+            <source media="(min-width: 900px)" srcset="src/assets/images/desktop/image-soccer-team.jpg" />
             <img src="src/assets/images/mobile/image-soccer-team.jpg" alt="Image soccer team">
             <h2 class="section-title-creations">Soccer team vr</h2>
           </picture>
         </a>
         <a href="#">
           <picture>
-            <source media="(min-width: 640px)" srcset="src/assets/images/desktop/image-grid.jpg" />
+            <source media="(min-width: 900px)" srcset="src/assets/images/desktop/image-grid.jpg" />
             <img src="src/assets/images/mobile/image-grid.jpg" alt="Image grid">
             <h2 class="section-title-creations">The grid</h2>
           </picture>
         </a>
         <a href="#">
           <picture>
-            <source media="(min-width: 640px)" srcset="src/assets/images/desktop/image-from-above.jpg" />
+            <source media="(min-width: 900px)" srcset="src/assets/images/desktop/image-from-above.jpg" />
             <img src="src/assets/images/mobile/image-from-above.jpg" alt="Image from above">
             <h2 class="section-title-creations">From up above vr</h2>
           </picture>
         </a>
         <a href="#">
           <picture>
-            <source media="(min-width: 640px)" srcset="src/assets/images/desktop/image-pocket-borealis.jpg" />
+            <source media="(min-width: 900px)" srcset="src/assets/images/desktop/image-pocket-borealis.jpg" />
             <img src="src/assets/images/mobile/image-pocket-borealis.jpg" alt="Image pocket borealis">
             <h2 class="section-title-creations">Pocket borealis</h2>
           </picture>
         </a>
         <a href="#">
           <picture>
-            <source media="(min-width: 640px)" srcset="src/assets/images/desktop/image-curiosity.jpg" />
+            <source media="(min-width: 900px)" srcset="src/assets/images/desktop/image-curiosity.jpg" />
             <img src="src/assets/images/mobile/image-curiosity.jpg" alt="Image curiosity">
             <h2 class="section-title-creations">The curiosity</h2>
           </picture>
         </a>
         <a href="#">
           <picture>
-            <source media="(min-width: 640px)" srcset="src/assets/images/desktop/image-fisheye.jpg" />
+            <source media="(min-width: 900px)" srcset="src/assets/images/desktop/image-fisheye.jpg" />
             <img src="src/assets/images/mobile/image-fisheye.jpg" alt="Image fisheye">
             <h2 class="section-title-creations">Make it fisheye</h2>
           </picture>
         </a>
+      </div>
+      <div id="btn-see-all-container-mobile" class="btn-see-all-container-mobile disable">
+        <a id="button-see-all" class="button-see-all" href="#">See all</a>
       </div>
     </section>
 
@@ -138,6 +155,7 @@
     </nav>
   </footer>
 
-  <script src="src/js/index.js"></script>
+  <script src="src/js/buttonSeeAll.js"></script>
+  <script src="src/js/mobileMenu.js"></script>
 </body>
 </html>
