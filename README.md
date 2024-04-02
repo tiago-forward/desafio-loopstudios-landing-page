@@ -31,7 +31,7 @@ Este é um projeto do site [Frontend Mentor](https://www.frontendmentor.io/chall
 
 <li>Desafio 3 - Adicionando interatividade com JavaScript.
 
-    Atribuindo funcionalidades aos elementos clicáveis;
+    Atribuindo funcionalidade ao abrir e fechar o menu;✅
 
 
 
@@ -41,25 +41,25 @@ Este é um projeto do site [Frontend Mentor](https://www.frontendmentor.io/chall
 
 ## Status
 
-Desafio em andamento. 👌
+Desafio quase finalizado. 👌
 
 ## Objetivo
 
-Com base nos conceitos adquiridos nos cursos Dev Quest, tinha como objetivo aprender a manipular e a utilizar da melhor forma o display grid.
+Apenas replicar o modelo de site do Frontend Mentor, visualmente simples.
 
 ## Curiosidade
 
-Neste projeto, aprendi que podemos utilizar e manipular da melhor forma o display grid e o flex, juntos são bastante funcional para um site bem estilizado e responsivo.
+Nesse desafio pude praticar o HTML, CSS e o JavaScript.
 
 ## Tecnologias
 
 <ul>
 <li>HTML</li>
 <li>CSS</li>
-<!-- <li>JavaScript</li> -->
+<li>JavaScript</li>
 <li>GIT</li>
 </ul>
 
 ## Acessando o site
 
-Para acessar o site do Loopstudios landing page, por favor use esse link: <a href="" target="_blank">Frontend Mentor | Loopstudios landing page</a>
+Para acessar o site do Loopstudios landing page, por favor use esse link: <a href="https://tiago-forward.github.io/desafio-loopstudios-landing-page/" target="_blank">Frontend Mentor | Loopstudios landing page</a>

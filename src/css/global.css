@@ -36,6 +36,10 @@ body{
     cursor: pointer;
 }
 
+.closed-img {
+    display: none;
+}
+
 .mobile-menu .nav-list-items{
     background-color: var(--black);
     width: 100vw;
